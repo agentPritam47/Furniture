@@ -13,7 +13,7 @@ const Experience = ({ click }) => {
   wood.repeat.set(50, 50);
   let s = 1.1;
   if (window.innerWidth < 1300) {
-    s = .8;
+    s = .7;
   } else {
     s = 1.1;
   }
