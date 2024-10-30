@@ -36,6 +36,14 @@ const App = () => {
               Chair4
             </button>
           </div>
+          <div>
+            <button
+              onClick={() => setclick("chair5")}
+              className=" pointer-events-auto text-white bg-yellow-900 px-6 py-2 rounded-full text-xs sm:text-xl"
+            >
+              Chair5
+            </button>
+          </div>
         </div>
       </div>
     </div>

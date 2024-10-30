@@ -5,6 +5,7 @@ import { Chair3 } from "./Chair3";
 import { Chair4 } from "./Chair4";
 import { Billboard, Center, useTexture } from "@react-three/drei";
 import * as THREE from "three";
+import { Chair5 } from "./Chair5";
 
 const Experience = ({ click }) => {
   const wood = useTexture("./wood.jpg");
@@ -46,6 +47,13 @@ const Experience = ({ click }) => {
                 rotation-x={-Math.PI / 2}
                 position-y={-1.5}
               />
+            </Center>
+          </group>
+        )}
+        {click === "chair5" && (
+          <group position-y={.5}>
+            <Center>
+              <Chair5 scale={0.004} rotation-x={-Math.PI / 2} rotation-z={-1.57} />
             </Center>
           </group>
         )}
